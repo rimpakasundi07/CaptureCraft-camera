@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,7 +41,7 @@
         tabindex="0"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
       <li><a>Home</a></li>
-      <li><a>Products</a></li>
+      <li><a href="#products">Products</a></li>
       </ul>
     </div>
     <a  class=""> <img src="asstes/image-removebg-preview.png" class="w-40 h-20" alt=""></a>
@@ -49,12 +49,12 @@
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li><a>Home</a></li>
-      <li><a>Products</a></li>
+      <li><a href="#products">Products</a></li>
        </ul>
   </div>
   <div class="navbar-end gap-2">
-    <a class="btn md:flex hidden  bg-[#239abe] text-white ">Sign up</a>
-    <a class="btn border-2 border-[#239abe]  bg-white text-[#239abe] ">Log in</a>
+    <a class="btn md:flex hidden hover:bg-transparent hover:text-[#239abe] hover:border-2 hover:border-[#239abe]    bg-[#239abe] text-white ">Sign up</a>
+    <a class="btn border-2 border-[#239abe]  bg-white text-[#239abe] hover:text-black hover:font-extrabold hover:border-black   ">Log in</a>
   </div>
     </div>
      
@@ -66,7 +66,7 @@
         <div class="space-y-8 pt-12">
           <h1 class="font-bold lg:text-5xl text-2xl ">Start your Journey as Influencer</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
-          <button class=" font-bold text-xl text-white px-4 py-2 rounded-full cursor-pointer bg-[#E02C6D]">Prebook Now</button>
+          <button class=" font-bold border-2  text-xl text-white px-4 py-2 rounded-full cursor-pointer hover:bg-white hover:text-pink-600 hover:border-pink-600  bg-[#E02C6D]">Prebook Now</button>
         </div>
         <!-- right side -->
          <div>
@@ -92,7 +92,7 @@
      <!-- logo secttion end here -->
 
      <!-- Popular Collection start here -->
-      <div class=" w-11/12 mx-auto py-10 ">
+      <div id="products" class=" w-11/12 mx-auto py-10 ">
         <h2 class=" lg:text-3xl text-xl font-bold text-center mb-8">Popular Collection</h2>
 
         <!-- card's main div -->
@@ -316,13 +316,23 @@
         <div class="space-y-3">
           <h2 class="font-bold lg:text-3xl text-xl ">Featured products at one place</h2>
           <p class="text-[#6C6C6C]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-          <button class="font-bold text-xl text-white px-4 py-2 rounded-full cursor-pointer bg-[#E02C6D]">Join Now</button>
+          <button class="font-bold text-xl border-2 text-white px-4 py-2 rounded-full cursor-pointer hover:bg-white hover:border-pink-600 hover:text-pink-600  bg-[#E02C6D]">Join Now</button>
 
         </div>
 
       </div>
      <!-- Featured products at one place end here -->
 
+     <!-- footer section start here -->
+      <div class="bg-[#0A0826] text-white text-center py-10 ">
+
+         <img src="asstes/ChatGPT Image Jun 15, 2025, 08_36_37 PM.png" class="w-40 h-full mx-auto" alt="">
+        <h1 class="font-bold text-2xl lg:text-4xl mb-2">CaptureCraft</h1>
+       <p>Made with <span class="text-red-500">❤️</span> by <span class="font-semibold"> Rimpa Kasundi</span> — <span class="italic">CaptureCraft</span><br>
+    &copy; 2025 CaptureCraft. All rights reserved.</p>
+      </div>
+     <!-- footer section end here -->
+
     
 </body>
-</html>
+</html> 
